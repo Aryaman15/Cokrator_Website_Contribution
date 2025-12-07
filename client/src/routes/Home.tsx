@@ -1,5 +1,5 @@
 import HeroSection from '../components/home/HeroSection';
-import ClientsStrip from '../components/home/ClientsStrip';
+import ClientsMarqueeSection from '../components/home/ClientsMarqueeSection';
 import WhatWeDoFlipGrid from '../components/home/WhatWeDoFlipGrid';
 import ProcessTimeline from '../components/home/ProcessTimeline';
 import SampleCarousel from '../components/home/SampleCarousel';
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="space-y-8">
       <HeroSection />
-      <ClientsStrip />
+      <ClientsMarqueeSection />
       <SectionHeading title="What We Do" subtitle="End-to-end production for print and digital titles" />
       <WhatWeDoFlipGrid />
       <ProcessTimeline />
