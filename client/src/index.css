@@ -32,3 +32,11 @@ a {
 .animate-spin-slow {
   animation: spin-slow 14s linear infinite;
 }
+
+[data-paused='true'] .marquee-track {
+  animation-play-state: paused;
+}
+
+[data-paused='false'] .marquee-track {
+  animation-play-state: running;
+}
